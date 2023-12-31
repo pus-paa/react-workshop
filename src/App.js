@@ -1,12 +1,10 @@
 import "./App.css";
-import TodoList from "./TodoList";
+import NumberGuessingGame from "./NumberGuessingGame";
 
 function App() {
   return (
     <div>
-      <div className="center">
-        <TodoList />
-      </div>
+      <NumberGuessingGame />
     </div>
   );
 }
